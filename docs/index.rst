@@ -16,22 +16,36 @@ Contents
 
 .. toctree::
    :glob:
-   :caption: Getting Started
+   :caption: Get Started
    :maxdepth: 1
 
-   getstarted/firststeps
-   getstarted/train_cli
-   getstarted/md
+   getstarted
 
 .. toctree::
    :glob:
-   :caption: SchNetPack from Python
+   :caption: User guide
+   :maxdepth: 1
+
+   userguide/overview
+   userguide/configs
+   userguide/md
+
+.. toctree::
+   :glob:
+   :caption: Tutorials
    :maxdepth: 1
 
    tutorials/tutorial_01_preparing_data
    tutorials/tutorial_02_qm9
    tutorials/tutorial_03_force_models
    tutorials/tutorial_04_molecular_dynamics
+
+.. toctree::
+   :glob:
+   :caption: How-To
+   :maxdepth: 1
+
+   howtos/howto_batchwise_relaxations
 
 .. toctree::
    :glob:
@@ -42,6 +56,8 @@ Contents
    api/atomistic
    api/data
    api/datasets
+   api/task
+   api/model
    api/representation
    api/nn
    api/train
